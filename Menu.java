@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Menu {
     List<TemplatesMenu> listaPrimi = new LinkedList<>();
-    List<TemplatesMenu> listaSecondi = new ArrayList<>();
-    List<TemplatesMenu> listaBevande = new ArrayList<>();
-    List<TemplatesMenu> listaDessert = new ArrayList<>();
+    List<TemplatesMenu> listaSecondi = new LinkedList<>();
+    List<TemplatesMenu> listaBevande = new LinkedList<>();
+    List<TemplatesMenu> listaDessert = new LinkedList<>();
 
     public void makeMenu(){
         TemplatesMenu scaloppineAlLimone = new TemplatesMenu("Scaloppine al limone", 12, "Fettine di vitello  battute e poi cotte in padella con succo di limone, burro e prezzemolo");
